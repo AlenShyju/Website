@@ -1,5 +1,5 @@
 
-https://website-5af30mhfx-alens-projects-b2cbf7bb.vercel.app/
+https://website-taupe-five-41.vercel.app/
 
 
 The ALSHY TECH website is designed with a modern and trustworthy aesthetic, featuring a sleek, professional interface highlighted by a dark-themed color palette of blues and navy that conveys reliability and confidence. Smooth animations powered by AOS and GSAP enhance the user experience, making interactions feel seamless and engaging. The user-friendly navigation includes a fixed header with a prominently centered "ALSHY TECH" logo and smooth scroll-to-section functionality, ensuring effortless browsing. Interactive elements such as a Swiper.js-powered testimonial slider showcase client success stories, while an animated stats counter dynamically displays key company achievements. A clean, intuitive contact form is provided for easy inquiry submission. The site is fully responsive and optimized for both mobile and desktop, with clean CSS, lazy loading, and a preloader to ensure fast load times and smooth transitions. To build trust, the website features detailed leadership team profiles and recognizable technology stack icons such as AWS and Docker, reinforcing ALSHY TECH’s credibility and technical expertise.
