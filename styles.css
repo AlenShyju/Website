@@ -231,7 +231,7 @@ ul {
     align-items: center;
 }
 .logo {
-    font-size: 2.5rem; /* More reasonable size */
+    font-size: 1.5rem; /* More reasonable size */
     font-weight: 800;
     color: white;
     margin: 0 auto; /* Center horizontally */
