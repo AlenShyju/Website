@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | ALSHY TECH</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --dark-color: #1e293b;
+            --text-color: #333;
+            --light-gray: #f5f5f5;
+            --transition: all 0.3s ease;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--light-gray);
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .last-updated {
+            font-style: italic;
+            color: #777;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            margin-top: 30px;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 5px;
+        }
+        
+        .highlight {
+            background-color: #f8f9fa;
+            border-left: 4px solid var(--primary-color);
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        
+        footer a {
+            color: white;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        footer a:hover {
+            color: var(--primary-color);
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Terms of Service</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <p class="last-updated">Last Updated: <span id="current-date"></span></p>
+        
+        <div class="highlight">
+            <p><strong>Important:</strong> By accessing or using ALSHY TECH's services, you agree to comply with these Terms of Service.</p>
+        </div>
+        
+        <h2>1. Acceptance of Terms</h2>
+        <p>These Terms govern your use of ALSHY TECH's website (<a href="https://www.alshytech.com">www.alshytech.com</a>) and services. Continued use constitutes agreement to any modified Terms.</p>
+        
+        <h2>2. Services Provided</h2>
+        <p>ALSHY TECH offers:</p>
+        <ul>
+            <li>Cybersecurity solutions</li>
+            <li>Cloud computing services</li>
+            <li>Network infrastructure services</li>
+            <li>Technology research & development</li>
+        </ul>
+        
+        <h2>3. User Responsibilities</h2>
+        <p>You agree not to:</p>
+        <ul>
+            <li>Use services for illegal purposes</li>
+            <li>Reverse engineer or hack our systems</li>
+            <li>Share login credentials</li>
+            <li>Upload malicious content</li>
+        </ul>
+        
+        <h2>4. Intellectual Property</h2>
+        <p>All content (logos, software, documentation) is owned by ALSHY TECH and protected under copyright laws. Unauthorized use is prohibited.</p>
+        
+        <h2>5. Payment & Billing</h2>
+        <p>For paid services:</p>
+        <ul>
+            <li>Fees are non-refundable unless otherwise stated</li>
+            <li>Late payments incur 1.5% monthly interest</li>
+            <li>30-day notice required for service cancellation</li>
+        </ul>
+        
+        <h2>6. Limitation of Liability</h2>
+        <p>ALSHY TECH shall not be liable for:</p>
+        <ul>
+            <li>Indirect, incidental, or consequential damages</li>
+            <li>Service interruptions beyond our control</li>
+            <li>Third-party actions</li>
+        </ul>
+        <p>Maximum liability limited to fees paid for services.</p>
+        
+        <h2>7. Termination</h2>
+        <p>We may suspend or terminate accounts for:</p>
+        <ul>
+            <li>Violation of these Terms</li>
+            <li>Non-payment</li>
+            <li>Legal compliance requirements</li>
+        </ul>
+        
+        <h2>8. Governing Law</h2>
+        <p>These Terms shall be governed by the laws of [Your State/Country], without regard to conflict of law principles.</p>
+        
+        <h2>9. Dispute Resolution</h2>
+        <p>Disputes will be resolved through binding arbitration in [Your City], [Your Country]. Each party bears its own costs.</p>
+        
+        <h2>10. Changes to Terms</h2>
+        <p>We reserve the right to modify these Terms. Continued use after changes constitutes acceptance.</p>
+        
+        <h2>11. Contact Information</h2>
+        <p>For questions about these Terms:</p>
+        <p><strong>Email:</strong> <a href="mailto:legal@alshytech.com">legal@alshytech.com</a></p>
+        
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> ALSHY TECH. All Rights Reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="Terms.html">Terms of Service</a> | <a href="index.html">Contact Us</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Set current date and year
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric'
+        });
+        
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
