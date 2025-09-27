@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Here you would typically send the form data to a server
             // For demonstration, we'll just show an alert
-            alert(`Thank you, ${name}! Your message has been received. We'll get back to you soon.`);
+            alert(`Thank you, ${name}! Your message has been received. We'll get back to you soon.If your matter is urgent or requires immediate attention, please reach out to us directly via email  or by phone, as it may take some time for us to review messages here.`);
             
             // Reset the form
             contactForm.reset();
